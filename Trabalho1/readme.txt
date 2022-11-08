@@ -1,0 +1,1 @@
+Programa que retornar todos os números primos a baixo do número primo informado e a soma de todos esses. 

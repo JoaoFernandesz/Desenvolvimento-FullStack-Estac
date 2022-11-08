@@ -1,0 +1,42 @@
+Algoritmo "Números primos"
+// Tutor        : Andre Przewodowski Filho
+// Função       : dado um número primo, retorna todos os números primos menores que esse e a soma de todos esses
+// Autor(a)     : João Victor Macedo Fernandes Ramos
+
+
+
+Var
+   i, numeros, primo, divisores, divisoresPrimo, soma:inteiro
+
+Inicio
+escreva("Digite um número:")
+leia(primo)
+
+para numeros de 2 até primo faca
+      se (primo mod numeros=0)entao
+        divisoresPrimo<-divisoresPrimo+1
+      fimse
+      fimpara
+se (divisoresPrimo=1)entao
+      para i de 1 até primo faca
+         divisores<-0
+         para numeros de 1 até i faca
+          se(i mod numeros=0)entao
+            divisores<-divisores+1
+          fimse
+           numeros <-numeros+1
+         fimpara
+         se(divisores=2)entao
+            escreval("o numero", i, " é primo")
+            soma<-soma+i
+         fimse
+         fimpara
+
+         escreva("a soma de todos os números primos menores ou iguais a ", soma, " é:")
+
+senao
+     escreva("inserir um número primo")
+
+fimse
+
+Fimalgoritmo
