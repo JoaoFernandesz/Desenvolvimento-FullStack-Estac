@@ -1,0 +1,1 @@
+Programa que recebe um número decimal retorna o valor dele em formato binário
