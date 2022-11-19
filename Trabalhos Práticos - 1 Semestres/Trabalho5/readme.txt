@@ -11,3 +11,5 @@ A importância de manipular é necessária para realização de apis e leitura d
 A importância de visualizar dados em histogramas e em outras representações gráficas se dá a análise de dados que compõe a ciência de dados
 
 Uma disposição gráfica dos números por extenso de acordo com a quantidade da amostra desse número.
+
+https://colab.research.google.com/drive/10nj2b-2YGOfsOQpXLSbzB-QylEWy5_hs?usp=sharing
